@@ -9,12 +9,12 @@ export default function App() {
       <div className="container">
         <div className="containerCard">
           <div className="picture">
-            <img src={Box} alt="Box with @ symbol" className="box" />
             <img
               src={WomanComputer}
               alt="Woman next to a computer"
               className="womanComputer"
             />
+            <img src={Box} alt="Box with @ symbol" className="box" />
           </div>
           <div className="faq">
             <h1>FAQ</h1>
