@@ -18,11 +18,12 @@ body {
 
 .container {
   background: #ffffff;
-  border: 1px solid #fff;
-  border-radius: 15px;
+
+  border-radius: 25px;
   width: 920px;
   height: 509px;
   padding: 60px 0;
+  overflow: hidden;
 }
 
 .containerCard {
@@ -30,17 +31,20 @@ body {
   flex-direction: row;
 }
 
+.picture {
+  width: 460px;
+}
+
 .box {
-  position: absolute;
-  left: 90px;
-  top: 310px;
-  z-index: 1;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
 }
 
 .womanComputer {
   position: relative;
-  left: -40px;
-  z-index: 2;
+  right: 90px;
+  z-index: 93;
 }
 
 .faq {
