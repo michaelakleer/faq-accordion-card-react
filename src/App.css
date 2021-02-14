@@ -18,12 +18,13 @@ body {
 
 .container {
   background: #ffffff;
-
   border-radius: 25px;
   width: 920px;
   height: 509px;
   padding: 60px 0;
   overflow: hidden;
+  position: relative;
+  z-index: 3;
 }
 
 .containerCard {
@@ -37,29 +38,39 @@ body {
 
 .box {
   position: relative;
-  bottom: 50px;
-  z-index: 2;
+  bottom: 100px;
+  right: 93px;
+  z-index: 1;
 }
 
 .womanComputer {
   position: relative;
   right: 90px;
-  z-index: 93;
+  z-index: 2;
 }
 
 .faq {
-  margin: 0 auto;
+  margin: 0 25px;
+  width: 350px;
+}
+
+.question {
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
 }
 
 h1 {
   color: hsl(238, 29%, 16%);
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-size: 14px;
   font-weight: 400;
   color: #4b4c5f;
+
+  display: inline;
+  padding-bottom: 20px;
 }
 
 a {
@@ -69,4 +80,11 @@ a {
 
 a:hover {
   color: hsl(14, 88%, 65%);
+}
+
+a:active {
+  font-weight: 700;
+}
+
+.arrowDown {
 }
