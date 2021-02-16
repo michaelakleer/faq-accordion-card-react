@@ -21,42 +21,26 @@ export default function App() {
         <div className="faq">
           <h1>FAQ</h1>
           <div className="faqQuestions">
-            <div className="question">
-              <h2>
-                <a href="/">How many team members can I invite?</a>
-              </h2>
+            <button className="question">
+              How many team members can I invite?
               <img src={Down} alt="Down arrow" className="arrowDown" />
-            </div>
-
-            <div className="question">
-              <h2>
-                <a href="/">What is the maximum file upload size?</a>
-              </h2>
+            </button>
+            <button className="question">
+              What is the maximum file upload size?
               <img src={Down} alt="Down arrow" className="arrowDown" />
-            </div>
-
-            <div className="question">
-              <h2>
-                <a href="/">How do I reset my password?</a>
-              </h2>
+            </button>
+            <button className="question">
+              How do I reset my password?
               <img src={Down} alt="Down arrow" className="arrowDown" />
-            </div>
-
-            <div className="question">
-              {" "}
-              <h2>
-                <a href="/">Can I cancel my subscription?</a>
-              </h2>
+            </button>
+            <button className="question">
+              Can I cancel my subscription?
               <img src={Down} alt="Down arrow" className="arrowDown" />
-            </div>
-
-            <div className="question">
-              {" "}
-              <h2>
-                <a href="/">Do you provide additional support?</a>
-              </h2>
+            </button>
+            <button className="question">
+              Do you provide additional support?
               <img src={Down} alt="Down arrow" className="arrowDown" />
-            </div>
+            </button>
           </div>
         </div>
       </div>
