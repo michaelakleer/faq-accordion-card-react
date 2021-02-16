@@ -8,6 +8,21 @@ body {
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
+button {
+  color: hsl(238, 29%, 16%);
+  border: none;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: hsl(14, 88%, 65%);
+}
+
 .App {
   height: 100vh;
   display: flex;
@@ -71,17 +86,4 @@ h2 {
   color: #4b4c5f;
   display: inline;
   padding-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: hsl(238, 29%, 16%);
-}
-
-a:hover {
-  color: hsl(14, 88%, 65%);
-}
-
-a:active {
-  font-weight: 700;
 }
