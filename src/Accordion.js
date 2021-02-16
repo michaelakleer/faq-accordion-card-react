@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Data } from "./Data";
 import Down from "./images/icon-arrow-down.svg";
+import "./Accordion.css";
 
 export default function Accordion() {
   const [clicked, setClicked] = useState(false);
@@ -29,7 +30,7 @@ export default function Accordion() {
                 )}
                 <span>
                   {clicked === index ? (
-                    <img src={Down} alt="Arrow down" />
+                    <img src={Down} alt="Arrow up" />
                   ) : (
                     <img src={Down} alt="Arrow down" />
                   )}
