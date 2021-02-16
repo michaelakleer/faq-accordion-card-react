@@ -2,7 +2,6 @@ import React from "react";
 import Accordion from "./Accordion";
 import WomanComputer from "./images/illustration-woman-online-desktop.svg";
 import Box from "./images/illustration-box-desktop.svg";
-import Down from "./images/icon-arrow-down.svg";
 import "./App.css";
 
 export default function App() {
