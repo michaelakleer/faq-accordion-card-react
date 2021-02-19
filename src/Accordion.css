@@ -4,6 +4,10 @@
 
 .Accordion p {
   font-size: 12px;
+  line-height: 18px;
+  color: #787887;
+  padding-top: 10px;
+  border-bottom: 1px solid #e8e8ea;
 }
 
 .Accordion strong {
