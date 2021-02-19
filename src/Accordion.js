@@ -39,7 +39,7 @@ export default function Accordion() {
             </div>
             {clicked === index ? (
               <div>
-                <p>{item.answer}</p>
+                <p className="answer">{item.answer}</p>
               </div>
             ) : null}
           </>

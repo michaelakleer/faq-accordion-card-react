@@ -75,11 +75,11 @@ button:hover {
 
 .faqQuestions {
   margin-right: 90px;
+  border-bottom: 1px solid #e8e8ea;
 }
 
 .question {
   padding: 20px 0;
-  border-bottom: 1px solid #e8e8ea;
 }
 
 h1 {
