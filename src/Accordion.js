@@ -20,7 +20,7 @@ export default function Accordion() {
         return (
           <>
             <div onClick={() => toggle(index)} key={index}>
-              <button>
+              <button className="question">
                 {clicked === index ? (
                   <h2>
                     <strong>{item.question}</strong>
