@@ -1,3 +1,11 @@
 .arrowUp {
   transform: rotate(180deg);
 }
+
+.Accordion p {
+  font-size: 12px;
+}
+
+.Accordion strong {
+  color: #1e1f36;
+}
